@@ -1,0 +1,4 @@
+repository "Gemini@Dasassygoat@cloud"
+  path "/"
+    br "/main"
+    co "/main"
