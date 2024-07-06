@@ -5,9 +5,9 @@ using UnityEngine.Networking;
 
 public class Gemini : MonoBehaviour
 {
-    private string GeminiEndPoint ="Tell me three famous people born today.";
+    private string GeminiEndPoint ="";
     private string APIKey ="";
-    [SerializeField] private message = "";
+    [SerializeField] private string message = "Tell me how to make  alfredo sauce.";
 
     void Start()
     {
